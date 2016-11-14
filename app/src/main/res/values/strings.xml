@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Vehicle Tracking</string>
+    <string name="activity_login_username_hint_string">Username</string>
+    <string name="activity_login_error_text_string">Please enter a valid Username</string>
+    <string name="activity_login_password_hint_string">Password</string>
+    <string name="error_msg_password_incorrect">Please enter a valid password</string>
+    <string name="activity_login_button_text">LOGIN</string>
+    <string name="activity_register_button_text">REGISTER</string>
 </resources>

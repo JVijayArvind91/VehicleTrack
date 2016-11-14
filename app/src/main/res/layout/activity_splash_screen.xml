@@ -2,8 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_splash_screen"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     tools:context="com.android.vehicletracking.activity.SplashScreenActivity">
+    <ImageView
+        android:id="@+id/splashImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/splashscreen"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/app_name">
 
+    </ImageView>
 </RelativeLayout>
